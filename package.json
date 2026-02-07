@@ -1,0 +1,19 @@
+{
+  "name": "weather-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy for weather API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["node", "express", "proxy", "weather"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
